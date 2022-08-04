@@ -57,7 +57,7 @@ main {
 }
 
 .con-menu {
-	display: flow-root;
+	display: inline;
 	align-items: center;
     justify-content: center;
 	position: absolute;
