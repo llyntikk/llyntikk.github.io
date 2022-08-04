@@ -42,6 +42,16 @@ body {
 	padding-left: 5px;
 }
 
+.sliv a {
+	text-decoration: none;
+	color: white;
+}
+
+.new a {
+	text-decoration: none;
+	color: white;
+}
+
 .new img {
 	padding-left: 6px;
 }
@@ -69,7 +79,7 @@ body {
 	background-color: #2e2e2ead;
 	border-radius: 10px;
 	padding: 4px;
-	margin-left: 60%;
+	margin-left: 66%;
 }
 
 .content {
@@ -136,4 +146,31 @@ body {
 .heart {
 	margin-left: 75%;
 	margin-top: -5%;
+}
+
+.btn {
+	margin-left: 60%;
+	margin-top: -4%;
+}
+
+.buy {
+    padding-bottom: 2px;
+    text-align: center;
+    height: auto;
+    width: 85%;
+    border: solid 2px #ff3e3e;
+    background-color: #ff5f5f75;
+    border-radius: 20px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.buy a {
+	color: white;
+	font-weight: 200;
+	font-size: 16px;
+	text-decoration: none;
 }
