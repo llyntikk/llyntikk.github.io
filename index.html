@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Шкурка Ногинска</title>
-	<meta name="viewport" content="width=393, initial-scale=1.0">
+	<meta name="viewport" content="width=320, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/menu.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,25 +15,16 @@
 			<a class="menu-close" href="#"></a>
 			<p>Меню</p>
 			<div class="con-menu">
-				<button style="padding: 5px 27px 5px 27px; border-color: #27ff00; background: #0374028c;">Войти</button>
-				<button style="padding: 5px 25px 5px 25px; border-color: #ff0000; margin-left: 1px; background: #7402028c;">Зарегистрироваться</button>
+				<div class="preview">
+					<script async src="https://telegram.org/js/telegram-widget.js?19" data-telegram-login="shkurkabuybot" data-size="large" data-userpic="false" data-radius="10" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+<script type="text/javascript">
+  function onTelegramAuth(user) {
+    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+  }
+</script>
+				</div>
 				<hr style="border-color: gray;">
 				<ul>
-				<li>
-					<div class="menu-button">
-						<a href="#">Профиль</a>
-					</div>
-				</li>
-				<li>
-					<div class="menu-button">
-						<a href="#">Стоимость услуг</a>
-					</div>
-				</li>
-				<li>
-					<div class="menu-button">
-						<a href="#">Слить фото/видео</a>
-					</div>
-				</li>
 				<li>
 					<div class="menu-button">
 						<a href="#">Написать в поддержку</a>
