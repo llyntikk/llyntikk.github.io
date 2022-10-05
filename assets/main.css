@@ -1,0 +1,48 @@
+body {
+	background: #1d1d1d;
+	color: white;
+	font-family: Inter;
+	text-align: center;
+	align-items: center;
+}
+
+.button {
+	display: block ruby;
+}
+
+button {
+	padding: 3px;
+	font-size: 16px;
+	border: none;
+	border-bottom: groove;
+	border-color: orange;
+	outline: none;
+	background: transparent;
+	color: orange;
+}
+
+button:hover {
+	padding: 3px;
+	font-size: 16px;
+	border: none;
+	border-bottom: groove;
+	border-color: white;
+	outline: none;
+	background: transparent;
+	color: white;
+}
+
+p {
+	margin-top: 15px;
+	font-size: 14px;
+	color: gray;
+}
+
+img {
+	width: 200px;
+	border-radius: 15px
+}
+
+h1 {
+	font-size: 30px;
+}
